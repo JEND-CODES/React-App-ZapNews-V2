@@ -1,0 +1,42 @@
+:root {
+    --mainDark: #1D233D;
+    --mainGrey: rgba(109,109,109);
+    --mainLightGrey: rgba(172,172,172);
+    --mainWhite: #fff;
+    --mainBlue: #007bff;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler {
+    border:none;
+}
+
+@keyframes appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-2%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes shrink {
+    0% {
+      width: 95%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
